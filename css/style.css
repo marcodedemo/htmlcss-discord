@@ -100,13 +100,16 @@ header #header-inner .mac-download{
     background-color: white;
     color: black;
 
+    border: none;
     border-radius: 25px;
     padding: 10px;
 }
 
 header #header-inner .browser-open{
     background-color: #22272a;
+    color: white;
  
+    border: none;
     border-radius: 25px;
     padding: 10px;
 }
