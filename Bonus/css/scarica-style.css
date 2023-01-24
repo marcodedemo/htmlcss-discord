@@ -116,5 +116,264 @@ button.blue-btn:hover{
 }
 
 
+/* main */
 
+main{
+    padding-bottom: 100px;
+}
+main #main-inner{
+    padding-top: 100px;
+    max-height:1700px ;
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap:20px;
+
+}
+
+/* main block positions */
+main #main-inner div.main-division:not(#main-small){
+    height: 600px;
+    width: 500px;
+    background-color: #f6f6f6;
+    border-radius: 25px;
+
+}
+
+main #main-inner div#main-small{
+    height: 300px;
+    width: 500px;
+    background-color: #f6f6f6;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+main #main-inner div.main-division:nth-child(4){
+    margin-top: 200px;
+} 
+
+/* divisions style */
+main .main-division{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+main .main-division .main-subtitle h2{
+    font-size: 1.8em;
+    padding-top: 100px;
+}
+main .main-division .main-button-container{
+    padding-bottom: 50px;
+}
+main .main-division .main-button-container button{
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color:#22272a ;
+    color: white;
+    padding: 20px 30px;
+}
+
+main .main-division .main-image img{
+    width: 100%;
+    padding: 0 80px;
+}
+main .main-division-main-text-container span{
+    
+}
+/* button animation hover */
+main .main-division .main-button-container button.black-btn:hover{
+    cursor: pointer;
+    background-color:#36393f;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* main third small div */
+main .main-division #main-small h2{
+    font-size: 1.8em;
+    padding-top: 100px;
+
+}
+
+main #main-small .main-button-container button{
+    border: none;
+    border-radius: 50px;
+    font-size: 20px;
+    background-color:#22272a ;
+    color: white;
+    padding: 20px 30px;
+}
+
+main #main-small .main-button-container button:hover{
+    cursor: pointer;
+    background-color:#36393f;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+main #main-small .main-text-container{
+    padding:30px 70px;
+}
+
+/* footer */
+
+footer{
+    padding: 100px 0;
+    background-color: #22272a;
+}
+/* footer content */
+footer #footer-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+/* footer top division */
+footer #footer-inner #footer-top{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+
+/* footer bottom division */
+footer #footer-inner #footer-bot{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* footer top left divisions */
+
+/* left side */
+footer #footer-inner #footer-top #footer-top-left{
+    max-width: 200px;
+
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+
+}
+
+footer #footer-inner #footer-top-left #footer-title{
+    color: #7289da;
+}
+
+footer #footer-inner #footer-top-left #footer-lenguage{
+    display: flex;
+    align-items: center;
+}
+
+footer #footer-inner #footer-top-left #footer-lenguage img{
+    width: 50%;
+}
+
+footer #footer-inner #footer-top-left #footer-lenguage span{
+    color: white;
+    font-size: 0.6em;
+    margin-left: -20px;
+}
+
+footer #footer-inner #footer-top-left #footer-social{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+footer #footer-inner #footer-top-left #footer-social img{
+    width: 70%;
+}
+
+/* right side */
+
+footer #footer-inner #footer-top-right h5{
+   padding: 5px 0 10px 0 ;
+   color: #7289da;
+   font-size: 1em;
+}
+footer #footer-inner #footer-top #footer-top-right{
+    flex-grow: 1;
+}
+
+footer #footer-inner #footer-top #footer-top-right #footer-subtitles{
+    list-style-type: none;
+    color: white;
+    font-size: 0.8em;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+/* subtitle prodotto */
+footer #footer-inner #footer-top-right #footer-subtitles #prodotto ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+/* subtitle compagnia */
+
+footer #footer-inner #footer-top-right #footer-subtitles #compagnia ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+/* subtitle risorse  */
+
+footer #footer-inner #footer-top-right #footer-subtitles #risorse ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+
+/* subtitle nome */
+footer #footer-inner #footer-top-right #footer-subtitles #nome ul{
+    list-style-type: none;
+
+    display: flex;
+    flex-direction: column;
+
+    gap: 10px;
+
+}
+footer #footer-inner hr{
+    color: #7289da;
+    border: 1px solid #7289da;
+
+    margin: 20px 0;
+}
+
+footer button{
+    border:none;
+    border-radius: 25px;
+
+    background-color:#7289da;
+    color: white;
+
+    padding:8px 10px;
+
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
