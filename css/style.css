@@ -111,12 +111,13 @@ header #header-inner .browser-open{
     padding: 10px;
 }
 
+main h2 {
+    font-size: 40px;
+}
+
 /* main first section */
 main #first-section{
-    background-color: #033903a2;
-    /* test */
-
-    height: 500px;
+    padding-top: 100px;
 
     display: flex;
     justify-content: center;
@@ -125,44 +126,15 @@ main #first-section{
 }
 /* first section left half */
 main #first-section #sect1-left{
-    background-color: #03fc0369;
-    /* test */
-    width: 400px;
-    height: 400px;
-
     flex-grow: 1;
-
 }
 
 /* first section right half */
 main #first-section #sect1-right{
-    background-color: #03fc0369;
-    /* test */
-    width: 400px;
-    height: 400px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
     gap:15px;
-}
-
-main #first-section #sect1-right #sect1-title{
-    background-color: #00800080;
-    /* test */
-
-    width: 200px;
-    height: 200px;
-
-}
-
-main #first-section #sect1-right #sect1-text{
-    background-color: #00800080;
-    /* test */
-    
-    width: 200px;
-    height: 100px;
 }
 
 
