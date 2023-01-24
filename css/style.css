@@ -406,3 +406,11 @@ footer #footer-inner #footer-bot #footer-button button{
     padding:8px 10px;
 
 }
+
+.wave-top{
+    margin: -10px 0;
+}
+
+.wave-bottom{
+    margin-top: -70px;
+}
