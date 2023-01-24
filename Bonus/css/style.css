@@ -96,17 +96,19 @@ header #header-inner #title-buttons{
     gap: 15px;
 }
 
-header #header-inner .mac-download{
+header .mac-download{
     background-color: white;
-    color: black;
 
+    border: none;
     border-radius: 25px;
     padding: 10px;
 }
 
-header #header-inner .browser-open{
+header .browser-open{
     background-color: #22272a;
+    color: white;
  
+    border: none;
     border-radius: 25px;
     padding: 10px;
 }
@@ -250,7 +252,7 @@ main #fourth-section #sect4-bot #sect4-button-container{
     padding-top: 20px;
 }
 
-main #fourth-section #sect4-bot #sect4-button-container button{
+main button{
     background-color:#7289da ;
     color: white;
 
@@ -396,7 +398,7 @@ footer #footer-inner hr{
     margin: 20px 0;
 }
 
-footer #footer-inner #footer-bot #footer-button button{
+footer button{
     border:none;
     border-radius: 25px;
 
@@ -413,4 +415,31 @@ footer #footer-inner #footer-bot #footer-button button{
 
 .wave-bottom{
     margin-top: -70px;
+}
+
+
+/* BONUS  */
+
+button.white-btn:hover{
+    cursor: pointer;
+    color: #7289da;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+button.black-btn:hover{
+    cursor: pointer;
+    background-color:#373a3b;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
+
+}
+
+button.blue-btn:hover{ 
+    cursor: pointer;
+    background-color: #bbc6f0;
+
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+
 }
