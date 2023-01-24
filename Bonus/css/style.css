@@ -305,16 +305,16 @@ footer #footer-inner #footer-top-left #footer-title{
 footer #footer-inner #footer-top-left #footer-lenguage{
     display: flex;
     align-items: center;
-    gap: 5px;
 }
 
 footer #footer-inner #footer-top-left #footer-lenguage img{
-    width: 10%;
+    width: 50%;
 }
 
 footer #footer-inner #footer-top-left #footer-lenguage span{
     color: white;
     font-size: 0.6em;
+    margin-left: -20px;
 }
 
 footer #footer-inner #footer-top-left #footer-social{
@@ -324,7 +324,7 @@ footer #footer-inner #footer-top-left #footer-social{
 }
 
 footer #footer-inner #footer-top-left #footer-social img{
-    width: 10%;
+    width: 70%;
 }
 
 /* right side */
