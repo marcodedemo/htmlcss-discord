@@ -1,0 +1,119 @@
+.centered-container{
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* background navbar + header */
+#first-bg{
+    background-color: #22272a;
+}
+
+/* navbar content */
+nav #navbar-inner{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    font-size: 0.8em;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+
+nav #navbar-inner #nav-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #navbar-inner #login{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav #navbar-inner #login button{
+    border:none;
+    border-radius: 25px;
+    background-color: white;
+    padding:8px 10px;
+}
+
+button.white-btn:hover{
+    cursor: pointer;
+    color: #7289da;
+
+}
+
+/* navbar links  */
+nav #navbar-inner #links ul{
+    list-style-type: none;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+}
+
+header #header-inner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header #header-right {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header #header-right img{
+    width: 90%;
+}
+
+/* header right side */
+header #header-left{
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+
+}
+
+header #header-left h1{
+    text-transform: uppercase;
+    font-family: 'Seymour One', sans-serif;
+
+    padding-bottom: 20px;
+}
+
+/* header left side */
+
+header .blue-btn{
+    background-color:#5865f2 ;
+    color: white;
+
+    border: none;
+    border-radius: 25px;
+    padding: 10px;
+}
+
+button.blue-btn:hover{ 
+    cursor: pointer;
+    background-color: #7983f5;
+}
+
+
+
+
