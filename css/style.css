@@ -137,14 +137,12 @@ main #first-section #sect1-right{
     gap:15px;
 }
 
+main .sect2-bg{
+    background-color: #f6f6f6;
+}
 
 /* main second section */
 main #second-section {
-    background-color: #090339a2;
-    /* test */
-
-    height: 500px;
-
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,45 +152,16 @@ main #second-section {
 
 /* second section left half */
 main #second-section #sect2-left{
-    background-color: #030ffc69;
-    /* test */
-    width: 400px;
-    height: 400px;
-
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     gap:15px;
 }
+
 /* second section right half */
 main #second-section #sect2-right{
-    background-color: #030ffc69;
-    /* test */
-    width: 400px;
-    height: 400px;
-
     flex-grow: 1;
-
-}
-
-/* second section left half content  */
-main #second-section #sect2-left #sect2-title{
-    background-color: #04008080;
-    /* test */
-
-    width: 200px;
-    height: 200px;
-
-}
-
-main #second-section #sect2-left #sect2-text{
-    background-color: #04008080;
-    /* test */
-    
-    width: 200px;
-    height: 100px;
-    
 }
 
 /* main third section */
