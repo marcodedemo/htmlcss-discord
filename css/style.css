@@ -12,45 +12,43 @@
 
 /* background navbar + header */
 #first-bg{
-    background-color: rgba(14, 1, 255, 0.185);
-    /* test */
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    background-position: center;
 }
 
 /* navbar content */
 nav #navbar-inner{
-    background-color: #00800080;
-    /* test */
-
-    height: 80px;
-
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
+    font-size: 0.8em;
 }
 
 nav #navbar-inner #nav-logo{
-    background-color: rgba(18, 197, 18, 0.7);
-    /* test */
-
-    height: 100%;
-    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 nav #navbar-inner #links{
-    background-color: rgba(18, 197, 18, 0.7);
-    /* test */
-
-    height: 100%;
+    color: white;
 
     display: flex;
     align-items: stretch;
 }
 
 nav #navbar-inner #login{
-    background-color: rgba(18, 197, 18, 0.7);
-    /* test */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    height: 100%;
-    width: 100px;
+nav #navbar-inner #login button{
+    border:none;
+    border-radius: 25px;
+    background-color: white;
+    padding:8px 10px;
 }
 
 /* navbar links  */
@@ -64,21 +62,12 @@ nav #navbar-inner #links ul{
 
 }
 
-nav #navbar-inner #links li{
-    background-color: rgb(1, 49, 1);
-    /* test */
-
-    width: 60px;
-    height: 30px;
-
-}
 
 /* header content  */
 header #header-inner{
-    background-color: #80000080;
-    /* test */
-
-    height: 400px;
+    padding-top: 150px;
+    padding-bottom: 150px;
+    color: white;
 
     display: flex;
     flex-direction: column;
@@ -89,32 +78,17 @@ header #header-inner{
 
 }
 
-header #header-inner #title{
-    background-color: rgba(197, 18, 18, 0.7);
-    /* test */
-
-    width: 500px;
-    height: 100px;
-
-}
-
 header #header-inner #title-text{
-    background-color: rgba(197, 18, 18, 0.7);
+    max-width: 600px;
+    text-align: center;
+    line-height: 1.5em;
 
-    /* test */
-
-    width: 500px;
-    height: 100px;
+    padding-top: 20px;
+    padding-bottom: 10px;
 }
 
 /* header buttons */
 header #header-inner #title-buttons{
-    background-color: rgba(197, 18, 18, 0.7);
-
-    /* test */
-
-    width: 500px;
-    height: 100px;
 
     display: flex;
     justify-content: center;
@@ -123,20 +97,18 @@ header #header-inner #title-buttons{
 }
 
 header #header-inner .mac-download{
-    background-color: rgb(49, 1, 1);
-    /* test */
+    background-color: white;
+    color: black;
 
-    height: 30px;
-    width: 100px;
-
+    border-radius: 25px;
+    padding: 10px;
 }
 
 header #header-inner .browser-open{
-    background-color: rgb(49, 1, 1);
-    /* test */
-
-    height: 30px;
-    width: 150px;
+    background-color: #22272a;
+ 
+    border-radius: 25px;
+    padding: 10px;
 }
 
 /* main first section */
